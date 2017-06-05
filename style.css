@@ -1,0 +1,32 @@
+.main{
+	width: 560px;
+	height: 450px;
+	position: relative;
+	background-color: #80cdc6;
+}
+.clouds, .water, .wooden-ship, .world{
+	position: absolute;
+	
+}
+.water{
+	bottom: 0;
+	z-index: 4;	
+	width: 560px;
+}
+.clouds{
+	top: 0;
+    right: 1px;
+    z-index: 3;
+    width: 345px;
+}
+.wooden-ship{
+	bottom: 40px;
+    left: 8px;
+    z-index: 3;
+    width: 120px;
+}
+.world{
+	width: 560px;
+	z-index: 2;
+	bottom: 25px;
+}
